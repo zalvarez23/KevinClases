@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="www/css/all.css">
+
+    <link rel="stylesheet" href="www/plugins/bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="www/css/style1.css">
+
+    <title>Clase 04</title>
+  </head>
+  <body ng-app="myApp" ng-controller="appCtrl">
+  
+  <header id="headerHome" style="display:none">
+    <br>
+    <img src="www/img/avatar.jpg" class="avatar">
+    <h1>Mi Primera Clase</h1>
+    <p>Aprendiendo html y css</p>
+  <ul>
+    <li><a ng-click="changeView(1);">ctrlModulo1</a></li>
+    <li><a ng-click="changeView(2);">ctrlModulo2</a></li>
+    <li><a ng-click="changeView(3);">ctrlModulo3</a></li>
+    <li><a ng-click="changeView(4);">ctrlModulo4</a></li>
+  </ul>    
+  </header> 
+  <br><br>
+  <center>
+
+
+
+  <!-- contenedor de vistas -->
+  <div ng-view >
+      
+  </div>
+
+  
+</center>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="www/plugins/jquery/js/jquery-3.3.1.slim.min.js"></script>
+ 
+    <script src="www/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="www/plugins/angular/angular.js"></script>
+    <script src="www/plugins/angular/angular-route.js"></script>
+    <!--APP PRINCIPAL CONFIG -->
+    <script src="www/app.js"></script>
+    <!-- CONTROLADORES -->
+    <script src="www/app/controllers/loginController.js"></script>
+    <!-- FIN DE CONTROLADORES -->
+    
+    <!-- SERVICIOS -->
+    <script src="www/app/services/HomeServices.js"></script>
+    <!-- FIN DE SERVICIOS-->
+  </body>
+</html>
+
+<script type="text/javascript">
+  
+</script>

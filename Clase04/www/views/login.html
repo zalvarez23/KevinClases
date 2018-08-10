@@ -1,0 +1,37 @@
+<div id="LoginForm">
+<div class="container">
+<h1 class="form-heading">login Form</h1>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Clase 04</h2>
+   <p>Porfavor ingresar usuario y contraseña</p>
+   </div>
+        <div id="Login">
+
+            <div class="form-group">
+
+                <input type="text" ng-model="objects.usuario"  class="form-control" id="inputEmail" placeholder="Usuario">
+
+            </div>
+
+            <div class="form-group">
+                <input type="password" ng-model="objects.password" class="form-control" id="inputPassword" placeholder="Password">
+
+            </div>
+            <div class="forgot">
+            <a href="reset.html">Perdio su contraseña?</a>
+            </div>
+            <center>
+                <span class="spinner" ng-if="showLoader"></span>
+            <br>
+            </center>
+
+            <button class="btn btn-primary" ng-click="iniciarSesion();">Iniciar Sesión</button>
+
+        </div>
+    </div>
+</div></div></div>
+
+
+</div>
